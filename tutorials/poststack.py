@@ -33,6 +33,9 @@ from scipy.signal import filtfilt
 import pylops
 from pylops.utils.wavelets import ricker
 
+from scipy.signal import filtfilt
+
+
 plt.close("all")
 np.random.seed(10)
 
